@@ -1,0 +1,33 @@
+Nome: Rafael Szeuczuk André		 Turma: B
+
+A)
+1. Na linha 4 será impresso *p_contador, que é o conteúdo da variável ligada a ele, que será o valor de i, ou seja, 5;
+Na linha 5 será impresso p_contador, que é o endereço da variável ligada a ela, ou seja, o endereço da variável i.
+
+2. Na linha 4 será impresso &conta, que é o endereço da variável conta;
+Na linha 5 será impresso &salario, que é endereço da variável salario;
+Na linha 6 será impresso &resposta; que é o endereço da variável resposta.
+
+3. Na linha 6 será impresso a variável valor, que está associado ao ponteiro p, e a variável num, logo será 55;
+Na linha 7 será impresso p, que seria o endereço da variável ligada a ele, ou seja, o endereço da variável num;
+Na linha 8 será impresso *p, que é o conteúdo da variável ligado a ele, ou seja, o conteúdo de num, 55.
+
+
+B)
+1. e.
+2. c.
+3. b: Aloca o conteúdo de uma variável ligada ao ponteiro a uma outra variável; d: Declara uma variável inteira normal;
+
+
+C)
+5. pti tem valor 10.
+
+D)
+#include using namespace std;
+int main(){
+float numero1, numero2, *fp;
+fp=&numero1;
+cout<<"Valor do objeto apontado por fP: "<<*fp;
+numero2=*fp;
+cout<<"Mostre o valor de numero2: "<< numero2 <<endl<<"Endereço de numero1: "<<&numero1<< endl<<"Endereço armazenado em fP: "<<&fp;
+}
